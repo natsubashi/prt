@@ -31,3 +31,8 @@ winPython: https://winpython.github.io/  3.12.6.0.7zip
     - Ex. vscode > user-data > User > setting.json >> add "git.path": "C:\xxxx\MinGit\ming64\bin\git.exe"
   - Next, open CMD in winPython and execute commands of #python only section.
     
+Python (ms-python.python)
+Git Graph (mhutchie.git-graph)
+Python Indent (kevinrose.vsc-python-indent)
+Highlight (fabiospampinato.vscode-highlight)
+Japanese Language Pack (ms-ceintl.vscode-language-pack-ja)
