@@ -36,3 +36,6 @@ Git Graph (mhutchie.git-graph)
 Python Indent (kevinrose.vsc-python-indent)
 Highlight (fabiospampinato.vscode-highlight)
 Japanese Language Pack (ms-ceintl.vscode-language-pack-ja)
+
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
