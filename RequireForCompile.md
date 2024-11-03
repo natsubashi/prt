@@ -4,8 +4,8 @@ Require Tools:
 - python 3.10.6~
 
 Option:
-- VSCode
-- git (minGit)
+- VSCode https://code.visualstudio.com/download
+- git (minGit) https://github.com/git-for-windows/git/releases
 
 If do you want to change the source, you should make a venv and use pip pyinstaller to the venv.  
 install python or download Winpython (open a terminal in portablemode VSCode)
@@ -20,7 +20,7 @@ python only:
 - pyinstaller source.py --onefile --noconsole
 - >>dist>>source.exe
 
-winPython
+winPython: https://winpython.github.io/  3.12.6.0.7zip
 - extract winPython
 - .\scripts env_for_icons.bat  add>
   - SET PATH=C:\xxxx\MinGit\ming64\bin;%PATH%
