@@ -39,3 +39,20 @@ Japanese Language Pack (ms-ceintl.vscode-language-pack-ja)
 
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+
+vscodeのセットアップ
+visualstudioで作ったwindowsformapp1.csprojおよびwindowsformapp1.slnをvscodeで読み込ませると、Intellisenceがはたらくようになる？
+
+npgsql2.2.1.nupkgを、vscodeのnuget拡張のaddPackageからnpgsql2.2.1を指定して入手　unzipして中のnpgsql.dllおよびmono.security.dllをps1ファイルがあるカレントディレクトリにコピー
+キャメルケースに注意しながら、-ReferencedAssembliesに列挙 ディレクトリに置いたdllは ".\Npgsql.dll", `のように列挙する
+Npgsql C onnectionでないとエラーになる
+usingは
+using Npgsql;
+using Mono.Security;
+でよい　ただしくps1内でreferencedassembliesできているならば
+
+
+
+
+
